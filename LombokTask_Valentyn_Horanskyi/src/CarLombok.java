@@ -27,7 +27,7 @@ class CarDemoLombok {
 
         System.out.println(car1.getColor());
         int year = car1.getYear();
-        car2.setColor("black");
+        car1.setColor("black");
 
         System.out.println("Are they equal: "+ car1.equals(car2));
         System.out.println("Hashcode car1: " + car1.hashCode());
