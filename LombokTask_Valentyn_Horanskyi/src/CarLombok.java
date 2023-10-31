@@ -1,13 +1,7 @@
-
-import lombok.Getter;
-import  lombok.Setter;
-import  lombok.ToString;
-import lombok.AllArgsConstructor;
-import  lombok.EqualsAndHashCode;
-
-
-
-@AllArgsConstructor @Getter @Setter @ToString @EqualsAndHashCode(of ="brand")
+import lombok.*;
+@Data
+@AllArgsConstructor
+@EqualsAndHashCode(of ="brand")
 public class CarLombok {
     private String model;
     private String brand;
